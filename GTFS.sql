@@ -1,3 +1,5 @@
+
+
 CREATE TABLE `agency` (
     transit_system VARCHAR(50) NOT NULL,
     agency_id VARCHAR(100),
@@ -9,6 +11,8 @@ CREATE TABLE `agency` (
     agency_fare_url VARCHAR(100),
     PRIMARY KEY (agency_id)
 );
+
+
 
 CREATE TABLE `calendar_dates` (
     id INT(12) NOT NULL PRIMARY KEY AUTO_INCREMENT,
